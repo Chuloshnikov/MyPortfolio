@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/myportfolio/static/css/main.d9717105.css",
-    "main.js": "/myportfolio/static/js/main.a870bf42.js",
-    "static/media/resume.pdf": "/myportfolio/static/media/resume.165e87eba69eb250b325.pdf",
-    "static/media/Screenshot_4.png": "/myportfolio/static/media/Screenshot_4.fae84146f35ae542a0a1.png",
-    "index.html": "/myportfolio/index.html",
-    "main.d9717105.css.map": "/myportfolio/static/css/main.d9717105.css.map",
-    "main.a870bf42.js.map": "/myportfolio/static/js/main.a870bf42.js.map"
+    "main.css": "/react-gh-pages/static/css/main.d9717105.css",
+    "main.js": "/react-gh-pages/static/js/main.3c0ba291.js",
+    "static/media/resume.pdf": "/react-gh-pages/static/media/resume.165e87eba69eb250b325.pdf",
+    "static/media/Screenshot_4.png": "/react-gh-pages/static/media/Screenshot_4.fae84146f35ae542a0a1.png",
+    "index.html": "/react-gh-pages/index.html",
+    "main.d9717105.css.map": "/react-gh-pages/static/css/main.d9717105.css.map",
+    "main.3c0ba291.js.map": "/react-gh-pages/static/js/main.3c0ba291.js.map"
   },
   "entrypoints": [
     "static/css/main.d9717105.css",
-    "static/js/main.a870bf42.js"
+    "static/js/main.3c0ba291.js"
   ]
 }

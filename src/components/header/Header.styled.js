@@ -38,6 +38,11 @@ height: 350px;
 align-self: center;
 border-radius: 1rem;
 filter: grayscale(30%);
+
+@media screen and (max-width:${({theme}) => theme.layout.tablet}){
+    width: 220px;
+height: 270px;
+    }
 `;
 
 export const ScrollDown = styled.a`
@@ -45,5 +50,11 @@ export const ScrollDown = styled.a`
     right: 2.3rem;
     bottom: 5rem;
     transform: rotate(90deg);
+    font-weight: 200;
+    font-size: 14px;
+
+    @media screen and (max-width:${({theme}) => theme.layout.tablet}){
+    display: none;
+    }
 
 `

@@ -30,4 +30,9 @@ svg:hover {
 
 }
 
+
+@media screen and (max-width:${({theme}) => theme.layout.tablet}){
+    display: none;
+}
+
 `;

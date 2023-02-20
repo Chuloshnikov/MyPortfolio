@@ -1,5 +1,5 @@
 import React from 'react';
-import { AboutContainer, AboutMe, AboutContent, Cards, Card, ToGitHub, Button } from './About.styled';
+import { AboutContainer, AboutMe, AboutContent, Cards, Card, ToGitHub, Button, TitleColor } from './About.styled';
 import { FaAward } from 'react-icons/fa';
 import { FiUsers } from 'react-icons/fi';
 import { VscFolderLibrary } from 'react-icons/vsc';
@@ -12,7 +12,7 @@ const About = () => {
   return (
     <section id="about">
       <h5>Get To Know</h5>
-      <h2>About Me</h2>
+      <TitleColor>About Me</TitleColor>
 
       <AboutContainer>
         <AboutMe>

@@ -28,8 +28,8 @@ export const ImageContainer = styled.div`
     background: linear-gradient(45deg, transparent, #F0AF22, transparent);
 
     -webkit-box-shadow: 10px -10px 11px -1px ${({theme}) => theme.colors.accentHoverColor};
--moz-box-shadow: 10px -10px 11px -1px ${({theme}) => theme.colors. accentHoverColor};
-box-shadow: 10px -10px 11px -1px ${({theme}) => theme.colors. accentHoverColor};
+    -moz-box-shadow: 10px -10px 11px -1px ${({theme}) => theme.colors. accentHoverColor};
+    box-shadow: 10px -10px 11px -1px ${({theme}) => theme.colors. accentHoverColor};
 
 &:hover {
     transform: rotate(0);

@@ -1,11 +1,22 @@
 import styled from "styled-components";
 
 
+export const TitleColor = styled.h2`
+color: ${({theme}) => theme.colors.accentColor};
+`;
+
 export const AboutContainer = styled.div`
     display: grid;
     grid-template-columns: 35% 50%;
     gap: 15%;
     margin-top: 5rem;
+
+    @media screen and (max-width:${({theme}) => theme.layout.tablet}){
+    
+    grid-template-columns: 1fr;
+    gap: 0;
+    margin-top: 2rem;
+    }
 
 `;
 
@@ -17,6 +28,15 @@ export const AboutMe = styled.div`
     display: grid;
     place-items: center;
     margin-left: 12rem;
+
+    -webkit-box-shadow: 10px -10px 11px -1px ${({theme}) => theme.colors.accentHoverColor};
+    -moz-box-shadow: 10px -10px 11px -1px ${({theme}) => theme.colors. accentHoverColor};
+    box-shadow: 10px -10px 11px -1px ${({theme}) => theme.colors. accentHoverColor};
+
+    @media screen and (max-width:${({theme}) => theme.layout.tablet}){
+        width: 50%;
+        margin: 1rem auto 2rem;
+}
     
     img {
         align-self: center;
@@ -44,6 +64,22 @@ p {
     line-height: 1.3rem;
     max-width: 600px;
 }
+
+@media screen and (max-width:${({theme}) => theme.layout.tablet}){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+p {
+    padding: 0.2rem;
+    margin: 1rem 0 1rem;
+    text-align: center;
+    
+    
+}
+}
+
 `;
 
 export const Cards = styled.div`
@@ -51,6 +87,19 @@ export const Cards = styled.div`
     grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
     margin-right: 10rem;
+
+    @media screen and (max-width:${({theme}) => theme.layout.tablet}){
+        gap: 0.5rem;
+        margin: 0;
+    }
+
+    @media screen and (max-width:${({theme}) => theme.layout.mobile}){
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 0.5rem;
+        margin: 0;
+    }
 `;
 
 export const Card = styled.article`
@@ -64,6 +113,13 @@ export const Card = styled.article`
     display: flex;
     flex-direction: column;
     transition: all .4s ease 0s;
+    
+    @media screen and (max-width:${({theme}) => theme.layout.tablet}){
+        
+        padding: 2rem 1.2rem;
+    
+    }
+
 
     svg {
         color:${({theme}) => theme.colors.aboutIconColor};
@@ -121,4 +177,11 @@ export const Button = styled.a`
     border: 2px solid ${({theme}) => theme.colors.accentColor};
     transform: scale(1.2);
 }
+
+@media screen and (max-width:${({theme}) => theme.layout.tablet}){
+    position: static;
+
+        
+    
+    }
 `

@@ -7,6 +7,7 @@ export const theme = {
       accentHoverColor: '#8C6000',
       pageBackground: '#100B00',
       sideBarBackground: '#212121',
+      aboutIconColor: '#F04422',
       borderButtonColor: '#4D4B4B',
       primaryBackgroundColor: '#191919',
       primaryBackgroundButton: '#FEFEFEF5',

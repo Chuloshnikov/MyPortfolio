@@ -35,7 +35,15 @@ align-items: center;
 padding: 2rem 0.2rem;
 gap: 0.1rem;
 align-self: center;
+transition: all .4s ease 0s;
+cursor: pointer;
 
+
+&:hover {
+    -webkit-box-shadow: -1px 2px 31px 19px ${({theme}) => theme.colors.accentColor};
+-moz-box-shadow: -1px 2px 31px 19px ${({theme}) => theme.colors.accentColor};
+box-shadow: -1px 2px 31px 19px ${({theme}) => theme.colors.accentColor};
+}
 
 div {
     display: flex;

@@ -1,8 +1,25 @@
-import React from 'react'
+import React from 'react';
+import { ServicesContainer, ServiceHeader, ServiceList } from './Services.styled';
+import { BiCheck } from 'react-icons/bi';
+
+import myInfo from '../../data/data';
 
 const Services = () => {
   return (
-    <section id='services'>Services</section>
+    <section id='services'>
+      <h5>What I Offer</h5>
+      <h2>Services</h2>
+      <ServicesContainer>
+          <article>
+            <ServiceHeader>
+              <h3>Front-End development</h3>
+            </ServiceHeader>
+            <ServiceList>
+                {myInfo.services.map((item, index) => (<li key={index}><BiCheck color='#F04422'/><p>{item.name}</p></li>))}
+            </ServiceList>
+          </article>
+      </ServicesContainer>
+    </section>
   )
 }
 

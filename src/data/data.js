@@ -4,7 +4,7 @@
     },
     projects: {
         pat: 7,
-        work: 0,
+        work: 2,
     },
     clients: {
         proj: 2,
@@ -24,7 +24,18 @@ For development, I would prefer to work with the React library. You can see my c
         tailwind: 1,
         php: 1,
         mysql: 1,
-    }
+    },
+    services: [
+        {
+            name: 'Layout of web pages of any complexity. Classic layout via HTML/CHSS SSSS. React layout.'
+        },
+        {
+            name: 'Development of front-end applications using the React.JS library.'
+        },
+        {
+            name: 'Refinement or correction of existing solutions.'
+        },
+    ]
 }
     
 

@@ -23,11 +23,17 @@ export const ImageContainer = styled.div`
     padding: 0.2rem;
     margin: 2rem auto;
     border-radius: 1rem;
-    background-color: ${({theme}) => theme.colors.accentColor};
+    transform: rotate(-10deg);
+    transition: all .4s ease 0s;
+    background: linear-gradient(45deg, transparent, #F0AF22, transparent);
 
     -webkit-box-shadow: 10px -10px 11px -1px ${({theme}) => theme.colors.accentHoverColor};
 -moz-box-shadow: 10px -10px 11px -1px ${({theme}) => theme.colors. accentHoverColor};
 box-shadow: 10px -10px 11px -1px ${({theme}) => theme.colors. accentHoverColor};
+
+&:hover {
+    transform: rotate(0);
+}
 `;
 
 
@@ -38,6 +44,13 @@ height: 350px;
 align-self: center;
 border-radius: 1rem;
 filter: grayscale(30%);
+transform: rotate(10deg);
+transition: all .4s ease 0s;
+border: 3px solid ${({theme}) => theme.colors.accentColor};
+
+&:hover {
+    transform: rotate(0);
+}
 
 @media screen and (max-width:${({theme}) => theme.layout.tablet}){
     width: 220px;

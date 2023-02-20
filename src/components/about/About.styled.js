@@ -113,6 +113,7 @@ export const Card = styled.article`
     display: flex;
     flex-direction: column;
     transition: all .4s ease 0s;
+    cursor: pointer;
     
     @media screen and (max-width:${({theme}) => theme.layout.tablet}){
         

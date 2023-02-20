@@ -87,7 +87,7 @@ const Experience = () => {
               />
           </ExperienceItem>
           <ExperienceItem>
-            <div><SiMysql color='#7377AD'/><p>MySql</p></div>
+            <div><SiMysql color='#DC8500'/><p>MySql</p></div>
               <Rating
                 name="MySql"
                 value={myInfo.tech.mysql}

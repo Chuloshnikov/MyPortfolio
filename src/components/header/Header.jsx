@@ -6,6 +6,7 @@ import ME from '../../assets/images/Screenshot_4.png';
 
 const Header = () => {
   return (
+    <section id="home">
     <HeaderContainer>
         <h5>Hello i'm</h5>
           <h1>Max Ch</h1>
@@ -19,6 +20,7 @@ const Header = () => {
           </ImageContainer>
           <ScrollDown>Scroll Down</ScrollDown>  
     </HeaderContainer>
+    </section>
   )
 }
 

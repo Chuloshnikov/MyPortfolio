@@ -96,7 +96,7 @@ export const Cards = styled.div`
     @media screen and (max-width:${({theme}) => theme.layout.mobile}){
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 90%;
         gap: 0.5rem;
         margin: 0;
     }
@@ -115,11 +115,13 @@ export const Card = styled.article`
     transition: all .4s ease 0s;
     cursor: pointer;
     
+    
     @media screen and (max-width:${({theme}) => theme.layout.tablet}){
         
         padding: 2rem 1.2rem;
     
     }
+
 
 
     svg {

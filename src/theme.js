@@ -52,6 +52,7 @@ export const theme = {
       loptop: '1024px',
       tablet: '768px',
       mobile: '425px',
+      mediumMobile: '375px',
       smallMobile: '320px',
     },
 

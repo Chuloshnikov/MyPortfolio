@@ -3,28 +3,12 @@ import styled from "styled-components";
 export const TitleColor = styled.h2`
 color: ${({theme}) => theme.colors.accentColor};
 margin: 0 auto;
-padding-bottom: 4rem;
 
-
-@media screen and (max-width:${({theme}) => theme.layout.loptop}){
-        
-    }
-
-    @media screen and (max-width:${({theme}) => theme.layout.tablet}){
-        padding-bottom: 1.5rem;
-        
-    }
-
-    @media screen and (max-width:${({theme}) => theme.layout.mobile}){
-        
-        
-        
-    }
 `;
 
 export const TestimonialsContainer = styled.div`
     width: 50%;
-    margin: 0rem auto;
+    margin: 5rem auto;
     background-color: ${({theme}) => theme.colors.accentColor};
     border-radius: 1rem;
 
@@ -33,12 +17,14 @@ export const TestimonialsContainer = styled.div`
     }
 
     @media screen and (max-width:${({theme}) => theme.layout.tablet}){
+        margin: 2.5rem auto;
         width: 80%;
         
     }
 
     @media screen and (max-width:${({theme}) => theme.layout.mobile}){
         width: 90%;
+       
         
         
     }

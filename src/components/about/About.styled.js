@@ -181,6 +181,7 @@ export const Button = styled.a`
 
 @media screen and (max-width:${({theme}) => theme.layout.tablet}){
     position: static;
+    margin-bottom: 3rem;
 
         
     

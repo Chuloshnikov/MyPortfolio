@@ -1,5 +1,5 @@
 import React from 'react';
-import { ServicesContainer, ServiceHeader, ServiceList } from './Services.styled';
+import { ServicesContainer, ServiceHeader, ServiceList, TitleColor } from './Services.styled';
 import { BiCheck } from 'react-icons/bi';
 
 import myInfo from '../../data/data';
@@ -8,7 +8,7 @@ const Services = () => {
   return (
     <section id='services'>
       <h5>What I Offer</h5>
-      <h2>Services</h2>
+      <TitleColor>Services</TitleColor>
       <ServicesContainer>
           <article>
             <ServiceHeader>

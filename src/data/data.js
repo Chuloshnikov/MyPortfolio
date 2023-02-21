@@ -1,3 +1,9 @@
+ import chshops from '../assets/images/chshops.png';
+ import chshop from '../assets/images/chshop.png';
+ import adminpanel from '../assets/images/Adminpanel.png';
+
+
+ 
  const myInfo = {
     experience: {
         years: 1,
@@ -34,6 +40,29 @@ For development, I would prefer to work with the React library. You can see my c
         },
         {
             name: 'Refinement or correction of existing solutions.'
+        },
+    ],
+    portfolioProjects: [
+        {
+            name: 'CHShops',
+            githublink: 'https://github.com/Chuloshnikov/shops-dashboard',
+            demolink: 'https://chshops-dashboard.netlify.app/',
+            img: chshops,
+            patwork: 'Pat',
+        },
+        {
+            name: 'CHShopDashboard',
+            githublink: 'https://github.com/Chuloshnikov/dashboard',
+            demolink: 'https://chshop-dashboard.netlify.app/',
+            img: chshop,
+            patwork: 'Pat',
+        },
+        {
+            name: 'AdminPanel',
+            githublink: 'https://github.com/Chuloshnikov/AdminPanel',
+            demolink: 'https://chadminpanel.netlify.app/',
+            img: adminpanel,
+            patwork: 'Pat',
         },
     ]
 }

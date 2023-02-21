@@ -22,7 +22,7 @@ export const ServicesContainer = styled.div`
     }
 
     @media screen and (max-width:${({theme}) => theme.layout.mobile}){
-        margin: 0 1rem;
+        margin: 2rem 1rem;
         
         
     }

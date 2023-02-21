@@ -1,6 +1,10 @@
  import chshops from '../assets/images/chshops.png';
  import chshop from '../assets/images/chshop.png';
  import adminpanel from '../assets/images/Adminpanel.png';
+ import moviebes from '../assets/images/Movie.png';
+
+ import customer1 from '../assets/images/customer1.png';
+ import customer2 from '../assets/images/customer2.png';
 
 
  
@@ -63,6 +67,33 @@ For development, I would prefer to work with the React library. You can see my c
             demolink: 'https://chadminpanel.netlify.app/',
             img: adminpanel,
             patwork: 'Pat',
+        },
+        {
+            name: 'Moviebes',
+            githublink: 'https://github.com/Iryna-25/moviebes-website',
+            demolink: 'https://iryna-25.github.io/moviebes-website/',
+            img: moviebes,
+            patwork: 'Pat',
+        },
+    ],
+
+    testimonials: [
+        {
+            name: 'Max Kidanov',
+            text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+            nisi ut aliquip ex ea commodo consequat.`,
+            img: customer1,
+        },
+        {
+            name: 'Iryna Shandar',
+            text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.`,
+            img: customer2,
         },
     ]
 }

@@ -15,23 +15,22 @@ export const PortfolioContainer = styled.div`
     grid-template-columns: repeat(3, 1fr);
     gap: 2.5rem;
     margin: 0 5rem;
+    padding-bottom: 5rem;
 
     @media screen and (max-width:${({theme}) => theme.layout.loptop}){
         grid-template-columns: 1fr 1fr;
         gap: 1.2rem;
+        padding-bottom: 2.5rem;
     }
 
     @media screen and (max-width:${({theme}) => theme.layout.tablet}){
         grid-template-columns: repeat(1, 1fr);
         gap: 1rem;
         margin: 0 2.5rem;
-        
     }
 
     @media screen and (max-width:${({theme}) => theme.layout.mobile}){
         margin: 0 1rem;
-        
-        
     }
 `;
 

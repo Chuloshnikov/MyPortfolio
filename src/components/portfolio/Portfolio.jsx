@@ -20,8 +20,8 @@ const Portfolio = () => {
                 <p>{item.patwork} Project</p>
               </PortfolioItemText>
               <Buttons>
-                <Btn href={item.githublink}>GitHub</Btn>
-                <PrimaryBtn href={item.demolink}> Live Demo</PrimaryBtn>
+                <Btn href={item.githublink} target="_blank">GitHub</Btn>
+                <PrimaryBtn href={item.demolink} target="_blank"> Live Demo</PrimaryBtn>
               </Buttons>
             </PortfolioItem>
           ))}

@@ -20,7 +20,7 @@ export const PortfolioContainer = styled.div`
     @media screen and (max-width:${({theme}) => theme.layout.loptop}){
         grid-template-columns: 1fr 1fr;
         gap: 1.2rem;
-        padding-bottom: 2.5rem;
+        padding-bottom: 5rem;
     }
 
     @media screen and (max-width:${({theme}) => theme.layout.tablet}){
@@ -30,7 +30,7 @@ export const PortfolioContainer = styled.div`
     }
 
     @media screen and (max-width:${({theme}) => theme.layout.mobile}){
-        margin: 0 1rem;
+        margin: -2.5rem 1rem;
     }
 `;
 

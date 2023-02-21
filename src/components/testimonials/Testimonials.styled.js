@@ -52,7 +52,7 @@ export const Testimonial = styled.article`
     margin: 1rem 0;
 
     h5 {
-        padding: 0.3rem 0;
+        padding:0 0 0.3rem  0;
         font-weight: 600;
         font-size: 16px;
     }
@@ -83,7 +83,7 @@ export const Testimonial = styled.article`
 
 export const ClientAvatar = styled.div`
 overflow: hidden;
-margin: 0 auto 1rem;
+margin: 0 auto 0.5rem;
 display: flex;
 justify-content: center;
 

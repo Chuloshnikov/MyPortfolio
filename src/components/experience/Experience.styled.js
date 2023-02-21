@@ -23,6 +23,8 @@ export const ExperienceContainer = styled.div`
     @media screen and (max-width:${({theme}) => theme.layout.tablet}){
         grid-template-columns: repeat(1, 1fr);
         margin: 2.5rem 2.5rem;
+        max-height: 400px;
+        overflow: scroll;
     }
 
     @media screen and (max-width:${({theme}) => theme.layout.mobile}){

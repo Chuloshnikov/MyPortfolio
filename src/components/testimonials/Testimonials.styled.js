@@ -25,6 +25,8 @@ padding-bottom: 4rem;
 export const TestimonialsContainer = styled.div`
     width: 50%;
     margin: 0rem auto;
+    background-color: ${({theme}) => theme.colors.accentColor};
+    border-radius: 1rem;
 
     @media screen and (max-width:${({theme}) => theme.layout.loptop}){
         width: 70%;

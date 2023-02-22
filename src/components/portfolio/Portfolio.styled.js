@@ -8,6 +8,10 @@ padding-bottom: 5rem;
     padding-bottom: 2.5rem;
     }
 
+    @media screen and (max-width:${({theme}) => theme.layout.mobile}){
+    padding-bottom: 1.5rem;
+    }
+
 `;
 
 export const PortfolioContainer = styled.div`
@@ -27,10 +31,11 @@ export const PortfolioContainer = styled.div`
         grid-template-columns: repeat(1, 1fr);
         gap: 1rem;
         margin: 0 2.5rem;
+        padding-bottom: 1.5rem;
     }
 
     @media screen and (max-width:${({theme}) => theme.layout.mobile}){
-        margin: -2.5rem 1rem;
+        margin: 1rem 1rem;
     }
 `;
 

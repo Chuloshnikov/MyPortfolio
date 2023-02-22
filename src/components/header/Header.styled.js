@@ -8,7 +8,13 @@ flex-direction: column;
 margin: 2rem 0;
 line-height: 2rem;
 
-`
+
+@media screen and (max-width:${({theme}) => theme.layout.tablet}){
+    margin: 1rem 0;
+    }
+`;
+
+
 
 export const Profession = styled.h5`
 

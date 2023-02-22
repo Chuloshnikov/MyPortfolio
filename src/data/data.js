@@ -1,10 +1,20 @@
- import chshops from '../assets/images/chshops.png';
- import chshop from '../assets/images/chshop.png';
- import adminpanel from '../assets/images/Adminpanel.png';
- import moviebes from '../assets/images/Movie.png';
+import chshops from '../assets/images/chshops.png';
+import chshop from '../assets/images/chshop.png';
+import adminpanel from '../assets/images/Adminpanel.png';
+import moviebes from '../assets/images/Movie.png';
 
- import customer1 from '../assets/images/customer1.png';
- import customer2 from '../assets/images/customer2.png';
+import customer1 from '../assets/images/customer1.png';
+import customer2 from '../assets/images/customer2.png';
+
+import { SiHtml5 } from 'react-icons/si';
+import { SiCss3 } from 'react-icons/si';
+import { SiJavascript } from 'react-icons/si';
+import { SiReact } from 'react-icons/si';
+import { SiStyledcomponents } from 'react-icons/si';
+import { SiMaterialui } from 'react-icons/si';
+import { SiTailwindcss } from 'react-icons/si';
+import { SiPhp } from 'react-icons/si';
+import { SiMysql } from 'react-icons/si';
 
 
  
@@ -24,17 +34,64 @@
 I have experience with adaptive and responsive HTML/CSS layout. I know JavaScript and constantly improve my knowledge. 
 For development, I would prefer to work with the React library. You can see my code and pet projects at the link to my`,
 
-    tech: {
-        html: 3,
-        css: 3,
-        js: 3,
-        react: 3,
-        styled: 3,
-        material: 1,
-        tailwind: 1,
-        php: 1,
-        mysql: 1,
-    },
+    tech: [
+        {
+            name: "HTML5",
+            icon: SiHtml5,
+            iconColor: '#E96228',
+            starsValue: 3,
+        },
+        {
+            name: "CSS3",
+            icon: SiCss3,
+            iconColor: '#2862E9',
+            starsValue: 3,
+        },
+        {
+            name: "JavaScript",
+            icon: SiJavascript,
+            iconColor: '#EFD81D',
+            starsValue: 3,
+        },
+        {
+            name: "React",
+            icon: SiReact,
+            iconColor: '#5ED3F3',
+            starsValue: 3,
+        },
+        {
+            name: "Styled-Components",
+            icon: SiStyledcomponents,
+            iconColor: '#F986E8',
+            starsValue: 3,
+        },
+        {
+
+            name: "Material-UI",
+            icon: SiMaterialui,
+            iconColor: '#0081CB',
+            starsValue: 1,
+        },
+        {
+            name: "Tailwind-CSS",
+            icon: SiTailwindcss,
+            iconColor: '#409AA5',
+            starsValue: 1,
+        },
+        {
+            name: "PHP",
+            icon: SiPhp,
+            iconColor: '#7377AD',
+            starsValue: 1,
+        },
+        {
+            name: "MySql",
+            icon: SiMysql,
+            iconColor: '#DC8500',
+            starsValue: 1,
+        },
+        
+    ],
     services: [
         {
             name: 'Layout of web pages of any complexity. Classic layout via HTML/CHSS SSSS. React layout.'

@@ -2,6 +2,7 @@ import chshops from '../assets/images/chshops.png';
 import chshop from '../assets/images/chshop.png';
 import adminpanel from '../assets/images/Adminpanel.png';
 import moviebes from '../assets/images/Movie.png';
+import chnotesapp from '../assets/images/chnotesapp.png';
 
 import customer1 from '../assets/images/customer1.png';
 import customer2 from '../assets/images/customer2.png';
@@ -104,6 +105,13 @@ For development, I would prefer to work with the React library. You can see my c
         },
     ],
     portfolioProjects: [
+        {
+            name: 'ChNotesApp',
+            githublink: 'https://github.com/Chuloshnikov/notesapp',
+            demolink: 'https://chnotesapp.netlify.app/',
+            img: chnotesapp,
+            patwork: 'Pat',
+        },
         {
             name: 'CHShops',
             githublink: 'https://github.com/Chuloshnikov/shops-dashboard',

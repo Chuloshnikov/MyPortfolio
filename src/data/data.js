@@ -145,19 +145,22 @@ For development, I would prefer to work with the React library. You can see my c
     testimonials: [
         {
             name: 'Max Kidanov',
-            text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-            nisi ut aliquip ex ea commodo consequat.`,
+            text: `As a fellow web developer who has had the pleasure of working alongside Max, 
+            I can confidently say that he is one of the most skilled and dedicated developers 
+            I have had the pleasure of working with. What truly sets Max apart, however, is 
+            hiscommitment to collaboration and teamwork. He is always willing to lend a 
+            helping hand to other developers on the team and is never too busy to answer 
+            questions or provide guidance. This has made a huge difference in our ability 
+            to work efficiently and effectively as a team.`,
             img: customer1,
         },
         {
             name: 'Iryna Shandar',
-            text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.`,
+            text: `Max's expertise in Frontend development is unmatched, 
+            and he consistently produces high-quality work that is both 
+            efficient and effective. He is always up-to-date on the latest 
+            trends and technologies in web development, and he is constantly 
+            looking for ways to improve and streamline our development processes.`,
             img: customer2,
         },
     ]

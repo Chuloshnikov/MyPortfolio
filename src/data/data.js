@@ -40,7 +40,7 @@ import { SiMongodb } from 'react-icons/si';
 
     projectNotate: `Goal: find a job as a front-end development. Preferably remotely.
 I have experience with adaptive and responsive HTML/CSS layout. I know JavaScript and constantly improve my knowledge. 
-For development, I would prefer to work with the Next.js library. You can see my code and pet projects at the link to my`,
+For development, I would prefer to work with the Next.js library. You can see my code, work and pet projects at the link to my`,
 
     tech: [
         {

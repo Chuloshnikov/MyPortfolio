@@ -21,38 +21,38 @@ import { SiMysql } from 'react-icons/si';
  
  const myInfo = {
     experience: {
-        years: 1,
+        years: 2,
     },
     projects: {
-        pat: 7,
+        pat: 12,
         work: 2,
     },
     clients: {
         proj: 2,
     },
 
-    projectNotate: `Goal: find a job as a front-end development. Preferably remotely, or in the office on the right bank of Kyiv.
+    projectNotate: `Goal: find a job as a front-end development. Preferably remotely.
 I have experience with adaptive and responsive HTML/CSS layout. I know JavaScript and constantly improve my knowledge. 
-For development, I would prefer to work with the React library. You can see my code and pet projects at the link to my`,
+For development, I would prefer to work with the Next.js library. You can see my code and pet projects at the link to my`,
 
     tech: [
         {
             name: "HTML5",
             icon: SiHtml5,
             iconColor: '#E96228',
-            starsValue: 3,
+            starsValue: 4,
         },
         {
             name: "CSS3",
             icon: SiCss3,
             iconColor: '#2862E9',
-            starsValue: 3,
+            starsValue: 4,
         },
         {
             name: "JavaScript",
             icon: SiJavascript,
             iconColor: '#EFD81D',
-            starsValue: 3,
+            starsValue: 4,
         },
         {
             name: "React",
